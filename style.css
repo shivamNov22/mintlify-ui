@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.bg-image {
+  height: 100vh;
+  background-image: url(https://www.mintlify.com/hero/bg-light.svg);
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.links a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
